@@ -1,0 +1,9 @@
+pub mod create_word;
+pub mod delete_word;
+pub mod get_change_request;
+pub mod get_word_by_pid;
+pub mod get_word_history;
+pub mod post_word;
+pub mod set_adopted;
+pub mod sync_dic;
+pub mod update_many;

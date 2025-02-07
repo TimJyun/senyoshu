@@ -1,0 +1,8 @@
+[workspace]
+members = ["client", "server", "common", "native"]
+resolver = "2"
+
+[profile.release]
+opt-level = 2
+lto = true
+incremental = true
